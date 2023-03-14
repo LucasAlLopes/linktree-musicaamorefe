@@ -46,10 +46,10 @@ body {
   font-size: 1.2rem;
 }
 
-.links {
-  color: white;
-  width: 100%;
-  padding: 25px;
+.botao {
+  background-color: rgb(22, 22, 95);
+  width: 600px;
+  height: 100px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -68,7 +68,7 @@ body {
   font-size: 12px;
 }
 
-.links:hover {
+.botao:hover {
   background-color: var(--laranja);
   color: white;
   border-color: var(--azulclaro);
@@ -132,6 +132,10 @@ body {
     font-size: 14px;
     text-align: center;
   }
+  .botao {
+    width: 380px;
+    height: 120px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -147,7 +151,12 @@ body {
     text-align: center;
   }
   .container p {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
+  }
+  .botao {
+    width: 25vh;
+    height: 5vh;
+    font-size: 0.8rem;
   }
 }
